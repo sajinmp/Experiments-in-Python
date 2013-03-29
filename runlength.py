@@ -15,6 +15,7 @@ def run_length(s):
     """
 
     s = re.sub("[^a-zA-Z]","", s)
+    s = s.lower()
     cnt = 1
     y = []
     z = []
